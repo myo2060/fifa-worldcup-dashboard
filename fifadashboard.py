@@ -74,6 +74,7 @@
     "\n",
     "# Dash app setup\n",
     "app = dash.Dash(__name__)\n",
+    server = app.server
     "\n",
     "app.layout = html.Div([\n",
     "    html.H1(\"FIFA World Cup Winners Dashboard\"),\n",
